@@ -1,130 +1,129 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahnafjek - Mobilitas, Makanan, dan Kirim Barang dalam Satu Aplikasi</title>
-    <meta name="description" content="Ahnafjek: pesan transportasi, makanan, belanja, dan kirim barang dalam satu aplikasi. Terinspirasi oleh super-app transportasi dan layanan on-demand.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahnafjek - Mobilitas, Makanan, dan Kirim Barang dalam Satu Aplikasi</title>
+  <meta name="description" content="Ahnafjek: pesan transportasi, makanan, belanja, dan kirim barang dalam satu aplikasi.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#utama">Lewati ke konten utama</a>
+  <a href="#utama" class="skip-link">Lewati ke konten utama</a>
 
-    <header>
-        <div>
-            <h1>Ahnafjek</h1>
-            <p>Penuhi Kebutuhan dengan satu kali klik</p>
-        </div>
-        <nav >
-            <ul>
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#mitra">Jadi Mitra</a></li>
-                <li><a href="#kota">Kota</a></li>
-                <li><a href="#dukungan">Dukungan</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">
+      <h1>Ahnafjek</h1>
+      <p>Penuhi kebutuhan dengan satu klik</p>
+    </div>
+    <nav class="navbar" role="navigation" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#mitra">Jadi Mitra</a></li>
+        <li><a href="#kota">Kota</a></li>
+        <li><a href="#dukungan">Dukungan</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main id="utama">
-        <section id="beranda">
-            <h2>Semua kebutuhan harian dalam satu aplikasi</h2>
-            <p>Transportasi, pesan-antar makanan, belanja harian, kirim barang, hingga pembayaran. Semua bisa di Ahnafjek.</p>
-            <p>
-                <a href="#download">Download Sekarang</a>
-            </p>
-            <p><small>Tersedia di kota-kota pilihan di Indonesia.</small></p>
-        </section>
+  <!-- MAIN -->
+  <main id="utama" class="site-main">
+    <section id="beranda" class="hero">
+      <h2>Semua kebutuhan harian dalam satu aplikasi</h2>
+      <p>Transportasi, pesan-antar makanan, belanja harian, kirim barang, hingga pembayaran. Semua bisa di Ahnafjek.</p>
+      <a href="#download" class="btn-primary">Download Sekarang</a>
+      <p><small>Tersedia di kota-kota pilihan di Indonesia.</small></p>
+    </section>
 
-        <section id="layanan" >
-            <h2 id="judul-layanan">Layanan Ahnafjek</h2>
+    <section id="layanan" class="services">
+      <h2>Layanan Ahnafjek</h2>
+      <div class="service-grid">
+        <article>
+          <h3>Transportasi</h3>
+          <p>Pesan motor atau mobil sesuai kebutuhan perjalanan Anda, harian maupun antar-kota.</p>
+        </article>
+        <article>
+          <h3>Makanan</h3>
+          <p>Jelajahi ribuan resto favorit dan pesan makanan ke lokasi Anda, cepat dan praktis.</p>
+        </article>
+        <article>
+          <h3>Kirim Barang</h3>
+          <p>Kirim dokumen atau paket dalam kota dengan mudah, aman, dan terjangkau.</p>
+        </article>
+        <article>
+          <h3>Belanja</h3>
+          <p>Penuhi kebutuhan harian dari toko dan pasar terdekat tanpa antre.</p>
+        </article>
+        <article>
+          <h3>Pembayaran</h3>
+          <p>Bayar tanpa tunai untuk perjalanan dan pesanan Anda, serta tagihan bulanan.</p>
+        </article>
+      </div>
+    </section>
 
-            <article>
-                <h3>Transportasi</h3>
-                <p>Pesan motor atau mobil sesuai kebutuhan perjalanan Anda, harian maupun antar-kota.</p>
-            </article>
+    <section id="mitra" class="partners">
+      <h2>Jadi Mitra Ahnafjek</h2>
+      <div class="partner-grid">
+        <article>
+          <h3>Mitra Driver</h3>
+          <p>Gabung sebagai pengemudi motor atau mobil. Dapatkan penghasilan fleksibel dengan jam kerja yang Anda tentukan sendiri.</p>
+          <a href="#" class="btn-secondary">Daftar sebagai Driver</a>
+        </article>
+        <article>
+          <h3>Mitra Merchant</h3>
+          <p>Kembangkan bisnis kuliner Anda dengan jangkauan pelanggan yang lebih luas.</p>
+          <a href="#" class="btn-secondary">Daftar sebagai Merchant</a>
+        </article>
+        <article>
+          <h3>Mitra Bisnis</h3>
+          <p>Permudah mobilitas tim dan operasional pengiriman dengan solusi bisnis dari Ahnafjek.</p>
+          <a href="#" class="btn-secondary">Pelajari Solusi Bisnis</a>
+        </article>
+      </div>
+    </section>
 
-            <article>
-                <h3>Makanan</h3>
-                <p>Jelajahi ribuan resto favorit dan pesan makanan ke lokasi Anda, cepat dan praktis.</p>
-            </article>
+    <section id="kota" class="cities">
+      <h2>Kota yang Didukung</h2>
+      <p>Saat ini tersedia di beberapa kota berikut:</p>
+      <ul>
+        <li>Jakarta</li>
+        <li>Bandung</li>
+        <li>Surabaya</li>
+        <li>Yogyakarta</li>
+        <li>Denpasar</li>
+        <li>Samarinda</li>
+      </ul>
+    </section>
 
-            <article>
-                <h3>Kirim Barang</h3>
-                <p>Kirim dokumen atau paket dalam kota dengan mudah, aman, dan terjangkau.</p>
-            </article>
+    <section id="dukungan" class="support">
+      <h2>Dukungan Pelanggan</h2>
+      <p>Butuh bantuan? Tim kami siap membantu kebutuhan Anda.</p>
+      <ul>
+        <li>Pusat Bantuan: <a href="#">Help Center</a></li>
+        <li>Telepon: <a href="tel:+6283152142438">+62 831-5214-2438</a></li>
+        <li>Email: <a href="mailto:ahnafjek123@gmail.com">ahnafjek123@gmail.com</a></li>
+      </ul>
+    </section>
 
-            <article>
-                <h3>Belanja</h3>
-                <p>Penuhi kebutuhan harian dari toko dan pasar terdekat tanpa antre.</p>
-            </article>
+    <section id="download" class="download">
+      <h2>Unduh Aplikasi Ahnafjek</h2>
+      <a href="#" class="btn-primary">Dapatkan di Google Play</a>
+      <p><small>Dengan mengunduh aplikasi, Anda menyetujui Syarat & Ketentuan serta Kebijakan Privasi.</small></p>
+    </section>
+  </main>
 
-            <article>
-                <h3>Pembayaran</h3>
-                <p>Bayar tanpa tunai untuk perjalanan dan pesanan Anda, serta tagihan bulanan.</p>
-            </article>
-        </section>
-
-        <section id="mitra" >
-            <h2 id="judul-mitra">Jadi Mitra Ahnafjek</h2>
-            <article>
-                <h3>Mitra Driver</h3>
-                <p>Gabung sebagai pengemudi motor atau mobil. Dapatkan penghasilan fleksibel dengan jam kerja yang Anda tentukan sendiri.</p>
-                <p><a href="#">Daftar sebagai Driver</a></p>
-            </article>
-            <article>
-                <h3>Mitra Merchant</h3>
-                <p>Kembangkan bisnis kuliner Anda dengan jangkauan pelanggan yang lebih luas.</p>
-                <p><a href="#">Daftar sebagai Merchant</a></p>
-            </article>
-            <article>
-                <h3>Mitra Bisnis</h3>
-                <p>Permudah mobilitas tim dan operasional pengiriman dengan solusi bisnis dari Ahnafjek.</p>
-                <p><a href="#">Pelajari Solusi Bisnis</a></p>
-            </article>
-        </section>
-
-        <section id="kota" >
-            <h2 id="judul-kota">Kota yang Didukung</h2>
-            <p>Kami terus memperluas layanan. Saat ini tersedia di beberapa kota berikut:</p>
-            <ul>
-                <li>Jakarta</li>
-                <li>Bandung</li>
-                <li>Surabaya</li>
-                <li>Yogyakarta</li>
-                <li>Denpasar</li>
-                <li>Samarinda</li>
-            </ul>
-        </section>
-
-        <section id="dukungan">
-            <h2 id="judul-dukungan">Dukungan Pelanggan</h2>
-            <p>Butuh bantuan? Tim kami siap membantu kebutuhan Anda.</p>
-            <ul>
-                <li>Pusat Bantuan: <a href="#">Kunjungi Help Center</a></li>
-                <li>Telepon: <a href="tel:+620000000000">+62 831-5214-2438</a></li>
-                <li>Email: <a href="mailto:help@ahnafjek.example">ahnafjek123@gmail.com</a></li>
-            </ul>
-        </section>
-
-        <section id="download" >
-            <h2 id="judul-download">Unduh Aplikasi Ahnafjek</h2>
-            <p>
-                <a href="#">Dapatkan di Google Play</a>
-            </p>
-            <p><small>Dengan mengunduh aplikasi, Anda menyetujui Syarat & Ketentuan serta Kebijakan Privasi.</small></p>
-        </section>
-    </main>
-
-    <footer>
-        <nav aria-label="Tautan dasar">
-            <ul>
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Karier</a></li>
-                <li><a href="#">Kebijakan Privasi</a></li>
-                <li><a href="#dukungan">Kontak</a></li>
-            </ul>
-        </nav>
-        <p>2025 Ahnafjek. Seluruh hak cipta dilindungi.</p>
-    </footer>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <nav aria-label="Tautan dasar">
+      <ul>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Karier</a></li>
+        <li><a href="#">Kebijakan Privasi</a></li>
+        <li><a href="#dukungan">Kontak</a></li>
+      </ul>
+    </nav>
+    <p>© 2025 Ahnafjek. Seluruh hak cipta dilindungi.</p>
+  </footer>
 </body>
 </html>
